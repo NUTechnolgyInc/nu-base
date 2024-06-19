@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author NuLogic Team
+ * @package Nulogic_PopupLogin
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="Nulogic_Base::nulogic" title="NuLogic" sortOrder="10" >
+                  <resource id="Nulogic_Base::advertisement_block" title="Advertisement Block" sortOrder="50" />
+                  <resource id="Nulogic_Base::login_popup" title="Advanced Login" sortOrder="100" />
+               </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>

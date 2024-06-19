@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author NuLogic Team
+ * @package Nulogic_Base
+ */
+-->
+<config>
+    <system>
+        <tab id="nulogic_module_configurations" translate="label" sortOrder="10">
+            <label>NuLogic</label>
+        </tab>
+    </system>
+</config>

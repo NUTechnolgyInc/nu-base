@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author NuLogic Team
+ * @package Nulogic_Base
+ */
+-->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Nulogic_Base::nulogic" title="NuLogic" module="Nulogic_Base" sortOrder="51" resource="Nulogic_Base::nulogic"/>
+        <add id="Nulogic_Base::advertisement" title="Nulogic Custom AdBlock" module="Nulogic_Base" resource="Nulogic_Base::advertisement" parent="Nulogic_Base::nulogic"/>
+        <add id="Nulogic_Base::advertisement_block" title="Advertisement Block" module="Nulogic_Base" sortOrder="10" action="adminhtml/system_config/edit/section/advertisement" resource="Nulogic_Base::advertisement_block" parent="Nulogic_Base::nulogic"/>
+        <add id="Nulogic_Base::login_popup" title="Advanced Login" module="Nulogic_Base" sortOrder="20" parent="Nulogic_Base::nulogic" action="adminhtml/system_config/edit/section/popuplogin" resource="Nulogic_Base::login_popup"/>
+        <add id="Nulogic_Base::sales_archive" title="Archive Feature" module="Nulogic_Base" sortOrder="30" parent="Nulogic_Base::nulogic" action="adminhtml/system_config/edit/section/nulogic_sales" resource="Nulogic_Base::login_popup"/>
+    </menu>
+</config>
