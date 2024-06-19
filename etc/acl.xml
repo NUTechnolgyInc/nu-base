@@ -10,10 +10,7 @@
     <acl>
         <resources>
             <resource id="Magento_Backend::admin">
-                <resource id="Nulogic_Base::nulogic" title="NuLogic" sortOrder="10" >
-                  <resource id="Nulogic_Base::advertisement_block" title="Advertisement Block" sortOrder="50" />
-                  <resource id="Nulogic_Base::login_popup" title="Advanced Login" sortOrder="100" />
-               </resource>
+                <resource id="Nulogic_Base::nulogic" title="NuLogic" sortOrder="10" />
             </resource>
         </resources>
     </acl>
